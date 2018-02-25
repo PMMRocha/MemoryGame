@@ -1,0 +1,13 @@
+<mat-grid-list cols="5" rowHeight="100%">
+
+  <!-- NAV -->
+  <mat-grid-tile [colspan]="'1'">
+    <app-nav></app-nav>
+  </mat-grid-tile>
+
+  <!-- MAIN -->
+  <mat-grid-tile [colspan]="'4'">
+      <router-outlet></router-outlet>
+  </mat-grid-tile>
+
+</mat-grid-list>
